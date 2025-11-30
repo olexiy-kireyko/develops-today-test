@@ -1,13 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
-// import { fn } from "storybook/test";
-
 import Input from "./Input";
-
-// export const ActionsData = {
-//   handleShowPassword: fn(),
-//   handleClearText: fn(),
-// };
 
 const meta = {
   component: Input,
@@ -15,9 +8,6 @@ const meta = {
   tags: ["autodocs"],
 
   excludeStories: /.*Data$/,
-  //   args: {
-  //     ...ActionsData,
-  //   },
 } satisfies Meta<typeof Input>;
 
 export default meta;

@@ -1,6 +1,6 @@
-import { start } from "@storybook/manager-api";
-import { myTheme } from "./theme";
+// import { start } from "@storybook/manager-api";
+// import { myTheme } from "./theme";
 
-start({
-  theme: myTheme,
-});
+// start({
+//   theme: myTheme,
+// });

@@ -1,6 +1,6 @@
-import { create } from "@storybook/theming";
+// import { create } from "@storybook/theming";
 
-export const myTheme = create({
-  base: "light",
-  brandTitle: "My Storybook",
-});
+// export const myTheme = create({
+//   base: "light",
+//   brandTitle: "My Storybook",
+// });
