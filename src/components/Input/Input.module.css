@@ -1,0 +1,28 @@
+.box {
+  position: relative;
+  margin: 24px;
+  width: 240px;
+}
+
+.field {
+  border: 1px solid rgb(67, 63, 63);
+  border-radius: 4px;
+  padding: 16px 24px;
+  width: 240px;
+}
+
+.field::placeholder {
+  color: rgb(163, 152, 152);
+}
+
+.eye {
+  position: absolute;
+  top: 18px;
+  right: 30px;
+}
+
+.clear {
+  position: absolute;
+  top: 18px;
+  right: 10px;
+}

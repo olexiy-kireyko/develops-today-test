@@ -1,0 +1,53 @@
+.box {
+  z-index: 100;
+  cursor: none;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: -300px;
+  background-color: rgb(231 232 233 / 90%);
+  padding: 24px;
+  width: 300px;
+  height: 100px;
+  transition: transform cubic-bezier(0.39, 0.575, 0.565, 1) 1000ms;
+}
+
+.show {
+  transform: translateX(-300px);
+}
+
+.hide {
+  transform: translateX(300px);
+}
+
+.success::after {
+  content: "";
+  background-color: #449515;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+}
+
+.error::after {
+  content: "";
+  background-color: #c3442b;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 100%;
+}
+
+.message {
+  color: rgb(36, 8, 8);
+}
+
+.close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
